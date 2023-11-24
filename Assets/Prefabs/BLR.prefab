@@ -261,6 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4051738813979428}
+  - component: {fileID: 7565039483438478403}
   m_Layer: 0
   m_Name: R
   m_TagString: SpawnPoint
@@ -283,6 +284,23 @@ Transform:
   m_Father: {fileID: 4278812518008938}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7565039483438478403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242750935554888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 3
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &1332240857502328
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4118959086132692}
+  - component: {fileID: 8470401805737517225}
   m_Layer: 0
   m_Name: L
   m_TagString: SpawnPoint
@@ -480,8 +499,25 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4278812518008938}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8470401805737517225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442174533054866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 1
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &1552933145951124
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,8 +668,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5666350434372273833}
   - {fileID: 4118959086132692}
+  - {fileID: 5666350434372273833}
   - {fileID: 4051738813979428}
   m_Father: {fileID: 4308900632172778}
   m_RootOrder: 1
@@ -698,6 +734,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5666350434372273833}
+  - component: {fileID: 5997601984765759833}
   m_Layer: 0
   m_Name: B
   m_TagString: SpawnPoint
@@ -718,8 +755,25 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4278812518008938}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5997601984765759833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424396592180737663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 2
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &7180984299214956450
 GameObject:
   m_ObjectHideFlags: 0

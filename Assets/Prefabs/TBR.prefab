@@ -345,6 +345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4155463238886156}
+  - component: {fileID: 9024759855161956601}
   m_Layer: 0
   m_Name: T
   m_TagString: SpawnPoint
@@ -367,6 +368,23 @@ Transform:
   m_Father: {fileID: 68968651052396449}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9024759855161956601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348614620759040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 0
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &1525034897592524
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4512321710156788}
+  - component: {fileID: 4920783603759697130}
   m_Layer: 0
   m_Name: R
   m_TagString: SpawnPoint
@@ -398,6 +417,23 @@ Transform:
   m_Father: {fileID: 68968651052396449}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4920783603759697130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525034897592524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 3
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &1709453575458850
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +734,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 462004887118891002}
+  - component: {fileID: 2175091022776189451}
   m_Layer: 0
   m_Name: B
   m_TagString: SpawnPoint
@@ -720,6 +757,23 @@ Transform:
   m_Father: {fileID: 68968651052396449}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2175091022776189451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4335621687883794257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 2
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &5357419985546389715
 GameObject:
   m_ObjectHideFlags: 0

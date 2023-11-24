@@ -261,6 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4205612304669494}
+  - component: {fileID: 671361354457531327}
   m_Layer: 0
   m_Name: B
   m_TagString: SpawnPoint
@@ -283,6 +284,23 @@ Transform:
   m_Father: {fileID: 4768433902203746}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &671361354457531327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495743175035696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 2
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &1532460050559808
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +380,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4797204484685682}
+  - component: {fileID: 744727379809541325}
   m_Layer: 0
   m_Name: T
   m_TagString: SpawnPoint
@@ -384,6 +403,23 @@ Transform:
   m_Father: {fileID: 4768433902203746}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &744727379809541325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657875908759724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3030e99f969d94ba314cb1dcc3cf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDir: 0
+  check: 0
+  tempObj: {fileID: 0}
+  spawned: 0
+  isLastRoom: 0
 --- !u!1 &1821337426962794
 GameObject:
   m_ObjectHideFlags: 0
